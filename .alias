@@ -1,0 +1,22 @@
+alias gl='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit'
+alias gs='git status'
+alias gp='git pull --rebase'
+alias gcs='git commit -S'
+
+# kubectl aliases
+alias k="kubectl"
+alias kgx="kubectl config get-contexts"
+
+# docker aliases
+alias d="docker"
+alias dps="docker ps"
+
+# directory aliases
+alias lla='lsd -ali'
+alias ll='lsd -li'
+
+
+# source ~/.zshrc
+alias sc="source $HOME/.zshrc"
+# Neovim my defualt VI editor
+alias vi='/opt/homebrew/bin/nvim'
